@@ -1,13 +1,4 @@
 @charset "UTF-8";
-@media screen and (max-width: 360px){
-    main{
-        width: 350px;
-        height: 600px;
-    }
-    #foto{
-        height: 26vh;
-    }
-}
 @media screen and (min-width: 600px) and (max-width: 992px) {
     body,html{
         width: 100vw;
