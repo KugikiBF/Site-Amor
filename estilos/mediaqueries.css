@@ -6,11 +6,11 @@
     }
     main{
         width: 80vw;
-        height: 300px;
+        height: 283px;
     }
     #foto{
         width: 40%;
-        height: 300px;
+        height: 283px;
         float: left;
         background-image: url(../img/pexels-szafran-32913931.jpg);
     }
@@ -23,6 +23,7 @@
         border-radius: 10px;
         width: 95%;
         margin: auto;
+        padding: 8px;
         
     }
     #entrar{
@@ -43,7 +44,7 @@
 @media screen and (min-width: 992px) and ( max-width: 1200px) {
     main{
         width: 80vw;
-        height: 46vh;
+        height: 44vh;
     }
     #foto{
         width: 50%;
@@ -59,6 +60,7 @@
         border-radius: 10px;
         width: 95%;
         margin: auto;
+        padding: 8px;
         
     }
     #entrar{
@@ -74,16 +76,18 @@
 @media screen and (min-width: 1200px) {
     main{
         width: 900px;
-        height: 470px;
+        height: 370px;
     }
     #foto{
-        width: 100%;
-        height: 30vh;
-        background-image: url(../img/pexels-ridvan-gulcan-264146066-16636631.jpg);
+        width: 50%;
+        height: 100vh;
+        background-image: url(../img/pexels-szafran-32913931.jpg);
         background-position:center;
+        float: right
     }
     #login{
-        width: 100%;
+        width: 50%;
+        float: right;
     }
     a{
         border: 1px solid #813772;
@@ -102,9 +106,9 @@
         
     }
     #email input{
-        width: 93%
+        width: 87.11%
     }
     #senha input{
-        width: 93%;
+        width: 86.9%;
     }
 }
