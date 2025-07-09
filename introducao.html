@@ -5,31 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/celular1.css" media="all">
+    <link rel="stylesheet" href="estilos/mediaqueries.css">
 </head>
 <body>
     <main>
         <form action="Amor.html">
-            <section id="introducao">
             <section id="foto">
                 <p>foto</p>
             </section>
-                <h2>Login</h2>
-                <p>Bem vindo, já estava com saudade</p>
-                <p>Para entrar, digite seu e-mail, seguindo de uma senha de no minimo 8 caracteres</p>
-            </section>
-            <section id="formulario">
-                <p id="email">
-                    <label for="iemail">E-mail:</label>
-                    <input type="email" name="email" id="iemail">
-                </p>
-                <p id="senha">
-                    <label for="isenha">Senha:</label>
-                    <input type="password" name="senha" id="isenha">
-                </p>
-            </section>
-            <section id="botoes">
-                <input type="submit" value="Entrar">
-                <label for="iforgot"><a href="https://github.com/KugikiBF">Esqueci a senha</a></label>
+            <section id="login">
+                    <section id="introducao">
+                        <h2>Login</h2>
+                        <p>Bem vindo, já estava com saudade</p>
+                        <p>Para entrar, digite seu e-mail, seguindo de uma senha de no minimo 8 caracteres</p>
+                    </section>
+                <section id="formulario">
+                    <p id="email" class="form">
+                        <label for="iemail">E-mail:</label>
+                        <input type="email" name="email" id="iemail" required placeholder="seu e-mail">
+                    </p>
+                    <p id="senha" class="form">
+                        <label for="isenha">Senha:</label>
+                        <input type="password" name="senha" id="isenha" required placeholder="sua senha" minlength="8">
+                    </p>
+                </section>
+                <section id="botoes">
+                    <input type="submit" value="Entrar" id="entrar">
+                    <label for="iforgot" id="forgot"><a href="https://github.com/KugikiBF">Esqueci a senha</a></label>
+                </section>
             </section>
         </form>
     </main>

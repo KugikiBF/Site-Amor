@@ -1,0 +1,66 @@
+@charset "UTF-8";
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body,html{
+        width: 100vw;
+        background-image: linear-gradient(#813772 ,#FFAFF0);
+    }
+    main{
+        width: 80vw;
+        height: 45vh;
+    }
+    #foto{
+        width: 40%;
+        height: 300px;
+        float: left;
+    }
+    #login{
+        float: right;
+        width: 60%;
+    }
+    a{
+        border: 1px solid #813772;
+        border-radius: 10px;
+        width: 95%;
+        margin: auto;
+        
+    }
+    #entrar{
+        margin-bottom: 8px;
+        margin-left: 2.5%;
+        width: 95%;
+        border-radius: 10px;
+        padding: 8px;
+        
+    }
+}
+@media screen and (min-width: 998px) and ( max-width: 1200px) {
+    main{
+        width: 80vw;
+        height: 46vh;
+    }
+    #foto{
+        width: 50%;
+        height: 300px;
+        float: right;
+    }
+    #login{
+        width: 50%;
+        float: left;
+    }
+    a{
+        border: 1px solid #813772;
+        border-radius: 10px;
+        width: 95%;
+        margin: auto;
+        
+    }
+    #entrar{
+        margin-bottom: 8px;
+        margin-left: 2.5%;
+        width: 95%;
+        border-radius: 10px;
+        padding: 8px;
+        
+    }
+    
+}
