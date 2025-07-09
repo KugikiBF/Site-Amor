@@ -41,7 +41,7 @@ main{
     
 }
 #image01{
-    background-image: url(img/pexels-michelle-leman-6765959.jpg);
+    background-image: url(../img/pexels-michelle-leman-6765959.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -49,7 +49,7 @@ main{
     box-shadow: 2px 1px 3px 7px rgba(0, 0, 0, 0.329);
 }
 #imagem02{
-    background-image: url(img/pexels-alesia-talkachova-733353-6629599\ \(1\).jpg);
+    background-image: url(../img/pexels-alesia-talkachova-733353-6629599\ \(1\).jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
